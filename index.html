@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        height: 100vh;
+      }
+
+      .container{
+        background-color: #f5f6f8;
+        display: flex;
+        justify-content: center;
+      }
+
+
+      .card{
+        background-color: #fff;
+        margin: 5rem;
+        border-radius: 1rem;
+        max-width: 30%;
+      }
+
+      .content{
+         padding: 1.5rem;
+      }
+
+
+
+      .content img{
+        width: 100%;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      h3{
+        font-family: "Sora";
+        background-color: #f6f4fe;
+        display: inline-block;
+        color: #583d7a;
+        margin-bottom: 1rem;
+        font-size: 10px;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+      }
+
+      h1{
+        font-family: "Sora";
+        font-size: 18px;
+        margin-bottom: 0.3rem;
+      }
+
+      p{
+        font-family: "Sora";
+        font-size: 14px;
+        color: #777;
+        line-height: 1.2rem;
+      }
+
+      .card > p{
+        padding: 1rem 0 1.2rem 1.5rem;
+        font-size: 12px;
+        border-top: solid 1px #ddd;
+        width: 100%;
+      }
+      
+
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      @media(max-width: 1024px){
+        .card{
+          max-width: 45%;
+        }
+
+        .content{
+
+        }
+      }
+
+      @media(max-width: 640px){
+        
+        .card{
+          max-width: 70%;
+          margin: 2rem;
+
+        }
+
+        .content{
+          padding: 1rem;
+        }
+
+        h3{
+          font-size: 7px;
+          padding: 0.2rem 0.5rem;
+          margin-bottom: 0.5rem;
+        }
+
+        h1{
+          font-size: 12px;
+        }
+
+        p{
+          font-size: 10px;
+          line-height: 1rem;
+        }
+
+        .card > p{
+          font-size: 9px;
+          padding: 0.5rem 0 0.8rem 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="card">
+        <div class="content">
+        <img src="./resources/Cactus.jpg" alt="cactus">
+        <h3>Design</h3>
+        <h1>Embracing Minimalism</h1>
+        <p>From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</p>
+        </div>
+          <p>Annie Spratt</p>
+      </div>
+    </div>
+    <!-- Design
+
+  Embracing Minimalism
+
+  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
+
+  Annie Spratt -->
+
+    <div class="author-info">
+      Coded by <a href="#">Ike-mbah Daniel</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
